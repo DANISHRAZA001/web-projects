@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somic's Portfolio</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow"></div>
+    <div class="bg-glow bg-glow-secondary"></div>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo-name">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <span class="logo">My<span class="nav-h1">Portfolio</span></span>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-btn">
+            <i class="ri-menu-3-line"></i>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content" id="home">
+        <div class="hero-text">
+            <h2 class="greeting">Welcome to my creative space</h2>
+            <h1 class="mainh1">Hello, I'm a <span class="highlight">Web Developer</span></h1>
+            <p class="main-para">Showcasing a collection of my latest designs and web development projects. I build
+                scalable and stunning digital experiences.</p>
+            <div class="cta-buttons">
+                <a href="projects.html" class="btn primary-btn">View My Work</a>
+                <a href="contact.html" class="btn secondary-btn">Contact Me</a>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat">
+                    <h3>1+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>5+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visuals">
+            <!-- The Main Portrait with a subtle animating glow -->
+            <div class="portrait-container">
+                <div class="main-pic" style="background-image: url('danish-raza-1.jpg');"></div>
+            </div>
+
+            <!-- Floating Project Image Cards -->
+            <div class="floating-cards">
+                <div class="card img1 tilt-left" style="background-image: url('img1.jpg');">
+                    <a href="services.html" class="card-overlay">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+                <div class="card img2 tilt-right" style="background-image: url('img2.jpg');">
+                    <a href="projects.html" class="card-overlay">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p class="f-para">
+                Designed with <i class="ri-heart-fill heart-icon"></i> by Danish.
+            </p>
+            <p class="copyright">&copy; 2024 Danish. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

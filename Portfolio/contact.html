@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Somic's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow" style="top: 50%; left: 0;"></div>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo-name">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <span class="logo">My<span class="nav-h1">Portfolio</span></span>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-btn">
+            <i class="ri-menu-3-line"></i>
+        </div>
+    </header>
+
+    <!-- Contact Main Content -->
+    <main class="contact-content" id="contact">
+        <div class="about-intro">
+            <h1 class="mainh1">Get in <span class="highlight">Touch</span></h1>
+            <p class="about-para">
+                Have a project in mind or just want to say hi? I'm currently available for freelance projects and
+                full-time opportunities. Drop a message below and let's collaborate!
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Info Panel -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon"><i class="ri-mail-send-fill"></i></div>
+                    <div class="info-details">
+                        <h4>Email Me</h4>
+                        <p>Danish30741m@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="ri-phone-fill"></i></div>
+                    <div class="info-details">
+                        <h4>Call Me</h4>
+                        <p>+92 3199819952</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="ri-map-pin-fill"></i></div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <p>Rawalpindi, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/xzdjybvp" method="POST" class="contact-form">
+                <div class="form-group row">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" rows="6" placeholder="Your Message"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message <i
+                        class="ri-send-plane-fill"></i></button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p class="f-para">
+                Designed with <i class="ri-heart-fill heart-icon"></i> by Danish.
+            </p>
+            <p class="copyright">&copy; 2024 Danish. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
